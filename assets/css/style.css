@@ -427,19 +427,21 @@ h6 {
   position: relative;
 }
 
-#hero:before {
-  content: "";
-  background: #5BC0BE;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+@media screen and (max-width:1024px) {
+  #hero:before {
+    content: "";
+    background: #5BC0BE;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 @media screen and (min-width:1024px) {
   #hero::before {
-    background: url(/assets/img/new-bg.svg) no-repeat !important;
+    background: url(/assets/img/bg2.svg) no-repeat !important;
     background-size: 100% !important;
   }
 }
