@@ -441,8 +441,13 @@ h6 {
 
 @media screen and (min-width:1024px) {
   #hero::before {
+    content: "";
     background: url(/assets/img/bg2.svg) no-repeat !important;
     background-size: 100% !important;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 
