@@ -436,6 +436,13 @@ h6 {
   right: 0;
 }
 
+@media screen (min-width:1024px) {
+  #hero:before {
+    background: url(/assets/img/bg2.svg) no-repeat;
+    background-size : 100vw;  
+  }
+} 
+
 #hero .container {
   padding-top: 72px;
 }
