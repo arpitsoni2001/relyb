@@ -435,13 +435,24 @@ h6 {
   left: 0;
   right: 0;
 }
-
-@media screen (min-width:1024px) {
+@media screen and (min-width:1024px) {
   #hero:before {
+    content: "";
     background: url(/assets/img/bg2.svg) no-repeat;
-    background-size : 100vw;  
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-} 
+}
+/* 
+#container-1 {
+  background: url(/assets/img/new-bg.svg) no-repeat;
+  background-size: 100% 100%;
+  background-position: right;
+}  */
 
 #hero .container {
   padding-top: 72px;
