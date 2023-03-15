@@ -162,7 +162,8 @@ h6 {
 .get-started-btn {
   margin-left: 22px;
   /* background: #5fcf80; */
-  color: #3A506B;;
+  color: #3A506B;
+  ;
   background: #dadada5f;
   /* color: #000000; */
   border: 2px solid #00000000;
@@ -435,12 +436,14 @@ h6 {
   left: 0;
   right: 0;
 }
-/* @media screen and (min-width:1024px) {
+
+@media screen and (min-width:1024px) {
   #hero::before {
-    background:url(/assets/img/bg2.svg) no-repeat;
-    background-size: 100%;
+    background: url(/assets/img/bg2.svg) no-repeat !important;
+    background-size: 100% !important;
   }
-} */
+}
+
 /* 
 @media screen (min-width:1024px) {
   #hero:before {
@@ -1483,6 +1486,7 @@ section {
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
+
 #footer .footer-top .footer-contact h3 {
   color: #5BC0BE;
   font-family: 'Kodchasan', sans-serif;
